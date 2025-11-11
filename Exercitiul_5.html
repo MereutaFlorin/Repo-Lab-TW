@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Exercitiul_5</h1>
+
+
+
+
+
+
+    <script>
+        
+    var lat1=4;
+    var lat2=2;
+    var lat3=5;
+
+var esteTriunghi = (lat1 + lat2 > lat3) && (lat1 + lat3 > lat2) && (lat2 + lat3 > lat1);
+
+if(esteTriunghi){
+
+    if((lat1==lat2) && (lat2==lat3)){
+        console.log("Triunghi echilateral");
+    } else if((lat1!=lat2) && (lat2!=lat3) && (lat1!=lat3)){
+        console.log("Triunghi oarecare");
+    } else {
+        console.log("Triunghi isoscel");
+    }
+
+} else {
+    console.log("Nu formeaza triunghi");
+}
+
+
+
+
+
+    </script>
+</head>
+
+</html>
